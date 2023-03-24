@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ReactProPlayer from 'react-pro-player'
 import 'react-pro-player/dist/index.css'
 
