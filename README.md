@@ -1,4 +1,4 @@
-# react Pro Player
+# React Pro Player
 
 react-pro-player is a React video player component that allows you to play HLS (m3u8) files. It provides a customizable video player with features such as play button, progress bar, toggle full screen, and quality selector.
 

@@ -1,7 +1,7 @@
 {
   "name": "react-pro-player",
-  "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "version": "1.0.1",
+  "description": "An advanced and highly customizable react HLS (m3u8) video player",
   "author": "langford-dev",
   "license": "MIT",
   "repository": "langford-dev/react-pro-player",
