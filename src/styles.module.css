@@ -1,0 +1,93 @@
+/* add css module styles here (optional) */
+
+* {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+select {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background: transparent;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: all;
+}
+
+.reactProPlayerVideoWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 100%;
+  object-fit: contain;
+}
+
+input[type='range'] {
+  width: 80%;
+}
+
+.reactProPlayer {
+  position: relative;
+}
+
+.reactProPlayerControlsWrapper {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.reactProPlayerControls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0000003d;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.reactProPlayerControlsButtonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.reactProPlayerDurationQualitySelector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.reactProPlayerDuration {
+  color: white;
+  white-space: nowrap;
+  margin: 0 10px;
+  font-size: small;
+}
